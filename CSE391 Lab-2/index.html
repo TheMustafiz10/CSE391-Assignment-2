@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Task</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+
+    <!-- STOPWATCH -->
+    <section class="card">
+      <h2>Stopwatch</h2>
+      <div style="text-align: center;">
+        <span id="stopwatchDisplay" class="stopwatch-display">0</span>
+      </div>
+      <div class="stopwatch-controls">
+        <button id="startBtn">▶ Start</button>
+        <button id="stopBtn">⏸️ Stop</button>
+        <button id="resetBtn">⟳ Reset</button>
+      </div>
+    </section>
+
+
+
+
+    
+
+    <!-- TO-DO LIST  -->
+    <section class="card">
+      <h2>To-Do List</h2>
+      <div class="todo-input-group">
+        <input type="text" id="taskInput" placeholder="write a task …" />
+        <button id="addTaskBtn">➕ Add</button>
+      </div>
+      <ul id="todoList" class="todo-list"></ul>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- FORTUNE GENERATOR  -->
+    <section class="card">
+      <h2>Fortune Generator</h2>
+      <div class="fortune-wrapper">
+        <div id="fortuneBox" class="fortune-box">
+          fortune appears here
+        </div>
+        <div class="fortune-controls">
+          <div class="button-wrapper">
+            <button id="fontColorBtn" style="background: #2ecc71;"></button>
+            <span class="color-label">Font</span>
+          </div>
+          <div class="button-wrapper">
+            <button id="bgColorBtn" style="background: #f1c40f;"></button>
+            <span class="color-label">BG</span>
+          </div>
+          <div class="button-wrapper">
+            <button id="borderColorBtn" style="background: #3498db;"></button>
+            <span class="color-label">Border</span>
+          </div>
+          <div class="button-wrapper">
+            <button id="fontStyleBtn" style="background: #e67e22;"></button>
+            <span class="color-label">Style</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
